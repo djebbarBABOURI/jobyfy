@@ -2,6 +2,7 @@
   "name": "formation_b_off",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon server.js"
   },
@@ -12,7 +13,9 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.9"
   }
 }
